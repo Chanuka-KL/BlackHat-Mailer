@@ -36,8 +36,9 @@ pip install -r requirements.txt
 ⚙️ Usage
 
 Run the script with:
-
+```bash
 python script.py
+```
 
 Menu Options
 
@@ -57,36 +58,36 @@ Once the script is running, you’ll be presented with a menu:
 ---
 
 📂 File Structure
-
+```bash
 BlackHat-Mailer/
 ├── script.py              # Main script for credential generation
 ├── README.md              # Documentation for the project
 ├── requirements.txt       # Required Python libraries
 └── blackhat_mailer.log    # Log file (auto-generated after running the script)
-
+```
 
 ---
 
 🔧 Requirements
 
-Python 3.6+
+ • Python 3.6+
 
-Operating Systems: Termux | Linux | Windows
+ • Operating Systems: Termux | Linux | Windows
 
 Python Libraries:
 
-tqdm (for progress bars)
+ • tqdm (for progress bars)
 
-tabulate (for tables)
+ ° tabulate (for tables)
 
-termcolor (for colorful terminal output)
+ • termcolor (for colorful terminal output)
 
 
 
 Install required libraries:
-
+```bash
 pip install tqdm tabulate termcolor
-
+```
 
 ---
 
@@ -105,11 +106,11 @@ You can choose to export the generated credentials in the following formats:
 
 
 Example of CSV Output:
-
+```bash
 Email Address,Password
 john.smith123@gmail.com,8rjkl@j01Pqz
 bob.jones45@gmail.com,xyZ@w6hWq3D1
-
+```
 
 ---
 
@@ -147,8 +148,7 @@ How to Contribute
 
 📧 Contact
 
-For any inquiries or feedback, you can reach out to:
-GitHub Profile: Chanuka-KL
+For any inquiries or feedback : 
 
 
 ---
@@ -160,10 +160,3 @@ MIT License. See the full LICENSE file for more details.
 
 ---
 
-requirements.txt
-
-If you need to install dependencies, here's a simple requirements.txt:
-
-tqdm
-tabulate
-termcolor
