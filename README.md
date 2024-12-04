@@ -148,7 +148,7 @@ How to Contribute
 
 📧 Contact
 
-For any inquiries or feedback :![chanuka.dev.lk@gmail.com](mailto:chanuka.dev.lk@gmail.com)
+For any inquiries or feedback : [mailto:chanuka.dev.lk@gmail.com]
 
 
 ---
