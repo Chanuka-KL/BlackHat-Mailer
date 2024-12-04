@@ -1,8 +1,8 @@
-BlackHat Mailer
+#BlackHat Mailer
 
 BlackHat Mailer is a professional and efficient Gmail credential generator designed for ethical hacking and educational purposes. The tool generates realistic Gmail usernames and secure passwords, with options to export the generated data in various formats such as CSV, JSON, and TXT.
 
-⚡ Features
+#⚡ Features
 
 Generate custom Gmail credentials (email + password).
 
@@ -17,7 +17,7 @@ Multithreaded for fast email generation.
 Logs generation details and errors for better tracking.
 
 
-🖥️ Installation
+#🖥️ Installation
 
 1. Clone the repository:
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 
 
-🚀 Usage
+#🚀 Usage
 
 Run the script with:
 
@@ -56,7 +56,7 @@ Menu Options:
 
 
 
-⚙️ Requirements
+#⚙️ Requirements
 
 Python 3.6+
 
@@ -71,7 +71,7 @@ Install all dependencies using:
 
 pip install tqdm tabulate termcolor
 
-📂 File Structure
+#📂 File Structure
 
 BlackHat-Mailer/
 ├── script.py              # Main script file
@@ -79,11 +79,11 @@ BlackHat-Mailer/
 ├── requirements.txt       # Dependencies
 └── blackhat_mailer.log    # Log file (generated after running)
 
-🔒 Disclaimer
+#🔒 Disclaimer
 
 This tool is intended for educational purposes only. Any misuse of this tool is solely the responsibility of the user. The author is not responsible for any unethical or illegal activities.
 
-🤝 Contributing
+#🤝 Contributing
 
 Feel free to fork this repository and submit pull requests to contribute improvements or new features!
 
