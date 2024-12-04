@@ -78,7 +78,7 @@ Python Libraries:
 
  • tqdm (for progress bars)
 
- ° tabulate (for tables)
+ • tabulate (for tables)
 
  • termcolor (for colorful terminal output)
 
@@ -148,7 +148,7 @@ How to Contribute
 
 📧 Contact
 
-For any inquiries or feedback : 
+For any inquiries or feedback :![chanuka.dev.lk@gmail.com](mailto:chanuka.dev.lk@gmail.com)
 
 
 ---
