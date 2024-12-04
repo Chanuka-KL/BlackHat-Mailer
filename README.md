@@ -1,98 +1,169 @@
-🕵️‍♂️ BlackHat Mailer
 
-BlackHat Mailer is a powerful Gmail credential generator tool designed for ethical hacking, penetration testing, and cybersecurity training purposes. It generates realistic Gmail usernames and secure passwords with a user-friendly CLI and various output options.
+# 🕵️‍♂️ **BlackHat Mailer**  
+![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+**BlackHat Mailer** is a professional tool designed for generating **Gmail credentials** (email + password) for **ethical hacking** and **penetration testing**. It allows you to create realistic Gmail usernames, generate strong passwords, and export the data in multiple formats like **CSV**, **JSON**, and **TXT**.
 
+---
 
-📌 Features
+## 🚀 **Features**
 
-✅ Generate Realistic Gmail Credentials
-✅ Export Data in CSV, JSON, or TXT
-✅ Multithreaded for Fast Processing
-✅ Secure Random Password Generation
-✅ Stylish CLI with ASCII Art
-✅ Logging for Monitoring and Debugging
+- **Generate Gmail Credentials**: Quickly create multiple Gmail addresses and passwords.
+- **Password Strength**: Randomly generated secure passwords with special characters.
+- **Multithreading Support**: Optimized for fast execution with multithreading.
+- **Multiple Export Options**: Save credentials as **CSV**, **JSON**, or **TXT**.
+- **Logging**: Track generated credentials with a log file.
+- **Stylish CLI**: Colorful output with ASCII banners for a professional look.
 
+---
 
+## 🖥️ **Installation**
 
-📥 Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Chanuka-KL/BlackHat-Mailer.git
+   cd BlackHat-Mailer
 
-Clone the Repository
-
-git clone https://github.com/Chanuka-KL/BlackHat-Mailer.git
-cd BlackHat-Mailer
-
-Install Dependencies
+2. Install dependencies:
 
 pip install -r requirements.txt
 
 
 
-🚀 Usage
 
-Run the script using the following command:
+---
+
+⚙️ Usage
+
+Run the script with:
 
 python script.py
 
 Menu Options
 
-1. Generate Gmail Credentials: Create multiple Gmail credentials (email & password).
+Once the script is running, you’ll be presented with a menu:
 
-2. Save Credentials: Export credentials to CSV, JSON, or TXT format.
-
-3. View Last Generated Credentials: Display recently generated credentials in a table.
-
-4. Exit: Quit the tool.
+1. Generate Gmail Credentials: Specify how many email addresses and passwords to generate.
 
 
+2. Save Credentials: Choose to export the generated credentials to CSV, JSON, or TXT format.
 
 
+3. View Last Generated Credentials: Display the recently generated credentials in a table format.
 
+
+4. Exit: Close the tool.
+
+---
 
 📂 File Structure
 
 BlackHat-Mailer/
-├── script.py              # Main script file
-├── README.md              # Documentation
-├── requirements.txt       # Dependencies file
-└── blackhat_mailer.log    # Log file (auto-generated)
+├── script.py              # Main script for credential generation
+├── README.md              # Documentation for the project
+├── requirements.txt       # Required Python libraries
+└── blackhat_mailer.log    # Log file (auto-generated after running the script)
 
 
-⚙️ Requirements
+---
+
+🔧 Requirements
 
 Python 3.6+
 
-Termux, Linux, or Windows
+Operating Systems: Termux | Linux | Windows
 
 Python Libraries:
 
-tqdm (Progress bar)
+tqdm (for progress bars)
 
-tabulate (Table display)
+tabulate (for tables)
 
-termcolor (Colorful text output)
+termcolor (for colorful terminal output)
 
 
 
-Install all dependencies using:
+Install required libraries:
 
 pip install tqdm tabulate termcolor
 
 
+---
 
+📤 Export Options
+
+You can choose to export the generated credentials in the following formats:
+
+1. CSV: Comma-separated values.
+
+
+2. JSON: Structured data format.
+
+
+3. TXT: Plain text format.
+
+
+
+Example of CSV Output:
+
+Email Address,Password
+john.smith123@gmail.com,8rjkl@j01Pqz
+bob.jones45@gmail.com,xyZ@w6hWq3D1
+
+
+---
 
 ⚠️ Disclaimer
 
-This tool is intended for educational purposes only. Unauthorized use of this tool is prohibited. The author is not responsible for any misuse or illegal activities.
+BlackHat Mailer is intended solely for educational purposes. The author is not responsible for any illegal or unethical activities carried out using this tool. Always ensure that you have permission to perform any testing or research.
 
 
-
+---
 
 🤝 Contributing
 
-We welcome contributions! Feel free to fork the repository and submit pull requests to enhance the tool.
+Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
 
+How to Contribute
+
+1. Fork the repository.
+
+
+2. Create a new branch (git checkout -b feature-branch).
+
+
+3. Make your changes and commit them (git commit -am 'Add new feature').
+
+
+4. Push to your branchit push origin feature-branch).
+
+
+5. Create a pull request.
+
+
+
+
+---
 
 📧 Contact
 
-GitHub: Chanuka-KL
+For any inquiries or feedback, you can reach out to:
+GitHub Profile: Chanuka-KL
+
+
+---
+
+📝 License
+
+MIT License. See the full LICENSE file for more details.
+
+
+---
+
+requirements.txt
+
+If you need to install dependencies, here's a simple requirements.txt:
+
+tqdm
+tabulate
+termcolor
