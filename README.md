@@ -1,91 +1,97 @@
-#BlackHat Mailer
+🕵️‍♂️ BlackHat Mailer
 
-BlackHat Mailer is a professional and efficient Gmail credential generator designed for ethical hacking and educational purposes. The tool generates realistic Gmail usernames and secure passwords, with options to export the generated data in various formats such as CSV, JSON, and TXT.
-
-#⚡ Features
-
-Generate custom Gmail credentials (email + password).
-
-Export credentials in multiple formats (CSV, JSON, TXT).
-
-Unique and secure password generation with special characters.
-
-Stylish and user-friendly CLI interface with ASCII art.
-
-Multithreaded for fast email generation.
-
-Logs generation details and errors for better tracking.
+BlackHat Mailer is a powerful Gmail credential generator tool designed for ethical hacking, penetration testing, and cybersecurity training purposes. It generates realistic Gmail usernames and secure passwords with a user-friendly CLI and various output options.
 
 
-#🖥️ Installation
 
-1. Clone the repository:
+📌 Features
+
+✅ Generate Realistic Gmail Credentials
+✅ Export Data in CSV, JSON, or TXT
+✅ Multithreaded for Fast Processing
+✅ Secure Random Password Generation
+✅ Stylish CLI with ASCII Art
+✅ Logging for Monitoring and Debugging
+
+
+
+📥 Installation
+
+Clone the Repository
 
 git clone https://github.com/Chanuka-KL/BlackHat-Mailer.git
-
-
-2. Navigate to the directory:
-
 cd BlackHat-Mailer
 
-
-3. Install the required dependencies:
+Install Dependencies
 
 pip install -r requirements.txt
 
 
 
-#🚀 Usage
+🚀 Usage
 
-Run the script with:
+Run the script using the following command:
 
 python script.py
 
-Menu Options:
+Menu Options
 
-1. Generate Gmail Credentials: Specify how many email credentials to generate.
+1. Generate Gmail Credentials: Create multiple Gmail credentials (email & password).
 
+2. Save Credentials: Export credentials to CSV, JSON, or TXT format.
 
-2. Save Credentials: Save the generated credentials in CSV, JSON, or TXT format.
-
-
-3. View Last Generated Credentials: Display the last generated credentials in a tabular format.
-
+3. View Last Generated Credentials: Display recently generated credentials in a table.
 
 4. Exit: Quit the tool.
 
 
 
-#⚙️ Requirements
+
+
+
+📂 File Structure
+
+BlackHat-Mailer/
+├── script.py              # Main script file
+├── README.md              # Documentation
+├── requirements.txt       # Dependencies file
+└── blackhat_mailer.log    # Log file (auto-generated)
+
+
+⚙️ Requirements
 
 Python 3.6+
 
-tqdm (for progress bar)
+Termux, Linux, or Windows
 
-tabulate (for displaying tables)
+Python Libraries:
 
-termcolor (for colorful CLI)
+tqdm (Progress bar)
+
+tabulate (Table display)
+
+termcolor (Colorful text output)
+
 
 
 Install all dependencies using:
 
 pip install tqdm tabulate termcolor
 
-#📂 File Structure
 
-BlackHat-Mailer/
-├── script.py              # Main script file
-├── README.md              # Documentation file
-├── requirements.txt       # Dependencies
-└── blackhat_mailer.log    # Log file (generated after running)
 
-#🔒 Disclaimer
 
-This tool is intended for educational purposes only. Any misuse of this tool is solely the responsibility of the user. The author is not responsible for any unethical or illegal activities.
+⚠️ Disclaimer
 
-#🤝 Contributing
+This tool is intended for educational purposes only. Unauthorized use of this tool is prohibited. The author is not responsible for any misuse or illegal activities.
 
-Feel free to fork this repository and submit pull requests to contribute improvements or new features!
+
+
+
+🤝 Contributing
+
+We welcome contributions! Feel free to fork the repository and submit pull requests to enhance the tool.
+
 
 📧 Contact
 
